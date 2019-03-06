@@ -1,0 +1,12 @@
+﻿@model PortalDeNoticias.MVC.Models.Noticia
+
+@{
+    ViewBag.Title = "Detalhes da Notícia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>Publicado por <strong>@Model.Autor</strong> em <strong>@Model.Data.ToString("dd/MM/yyyy")</strong></p>
+
+<p>@Model.Conteudo</p>

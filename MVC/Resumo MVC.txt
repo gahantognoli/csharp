@@ -1,0 +1,4 @@
+MVC o que é?
+Model = Responsável por modelar todas as entidades do sistema e lidar com os dados da aplicação.
+View = Apresentação, interface do usuário.
+Controller = Recebe as requisições do usuário, vai requerer o model e entregar para a view. Faz a orquestração.
