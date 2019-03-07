@@ -40,6 +40,7 @@ namespace AutenticacaoAspNet.Controllers
                 Login = viewModel.Login,
                 Senha = Hash.GerarHash(viewModel.Senha)
             };
+
             db.Usuarios.Add(usuario);
             db.SaveChanges();
 
